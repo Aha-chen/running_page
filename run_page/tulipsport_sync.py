@@ -123,6 +123,7 @@ def merge_summary_and_detail_to_nametuple(summary, detail):
         "id": id,
         "name": name,
         "type": type,
+        "subtype": type,  # 添加subtype字段，与type保持一致
         "start_date": start_date,
         "start_date_local": start_date_local,
         "average_heartrate": average_heartrate,
